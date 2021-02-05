@@ -26,7 +26,7 @@ public class Main {
 //        }
 
 
-        //PSEUDOCODE
+        //====PSEUDOCODE=====
         /*
         Take input credits
         if credits >= 7500:
@@ -50,9 +50,9 @@ public class Main {
 
 
 
-        /*
-        Question 2
-         */
+
+       // Question 2
+
 
 //        System.out.println("Enter amount");
 //        int amount = sc.nextInt();
@@ -66,7 +66,9 @@ public class Main {
 //        System.out.println("Simple interest = "+si);
 
 
-        //PSEUDOCODE
+
+        //====PSEUDOCODE====
+
 
         /*
 
@@ -99,19 +101,20 @@ public class Main {
 //
 //        System.out.println("GCD is "+ n1);
 
-    //PSEUDOCODE
+
+
+    //=====PSEUDOCODE=====
 
     /*
-
 
     Take input first number
     Take input second number
     while n1 != n2:
         if n2 > n2:
-            n2 = n2 - n1
+            n2 := n2 - n1
         end if
         else:
-            n1 = n1 - n2
+            n1 := n1 - n2
         end else
     end while
     print gcd of the two numbers.
@@ -122,21 +125,38 @@ public class Main {
 
 
     //QUESTION 4
+//        System.out.println("Enter the number of terms ");
+//        int terms = sc.nextInt();
+//        int a = 2, i = 0;
+//        while(i<terms) {
+//            a = a + 4*i;
+//            System.out.print(a+" ");
+//            i++;
+//        }
 
-    int n = 10;
+
+    //=====PSEUDOCODE=======
+
+        /*
+        Take input the number of terms
+        int i := 0
+        int a := 2
+        while i < terms:
+             a := a + i
+             print value of a
+             i++
+        end while
+
+         */
 
 
-       //System.out.println("J value at last"+j);
+
+
+
+
    }
 
-
-
-
-
-
-
-
-    }
-
-
 }
+
+
+
