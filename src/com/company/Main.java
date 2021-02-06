@@ -149,12 +149,357 @@ public class Main {
 
          */
 
+    // Question 5
+
+
+//
+//    int number = sc.nextInt();
+//    int n = number;
+//    int count = 0;
+//    int last;
+//
+//    while(n != 0){
+//        last = n % 10;
+//        n = n / 10;
+//        count++;
+//    }
+//        System.out.println(count);
+
+
+     //Question 6
+
+//     int number = sc.nextInt();
+//     int n = number;
+//     int rev = 0,last;
+//
+//     while(n != 0){
+//         last = n % 10;
+//         rev = 10 * rev + last;
+//         n = n / 10;
+//
+//     }
+//        System.out.println(rev);
+
+
+
+
+        //Question 7.a
+
+        /*
+
+
+         *
+         *   *
+         *   *   *
+         *   *   *   *
+         *   *   *   *   *
+
+
+         */
+
+
+//        int n = 5;
+//
+//        int row = 0;
+//        while(row < n){
+//            int cols = 0;
+//            while(cols  < row + 1 ){
+//                System.out.print("*   ");
+//                cols++;
+//            }
+//            System.out.println();
+//            row++;
+//        }
+
+
+        //Question 7.b
+
+        /*
+
+        1
+        1    2
+        1    2    3
+        1    2    3    4
+        1    2    3    4    5
+
+        */
+
+
+
+//        int n = 5;
+//        int row = 0;
+//
+//        while(row < n){
+//            int cols = 0;
+//            while(cols < row + 1){
+//
+//                System.out.print(1+cols+"    ");
+//                cols++;
+//
+//            }
+//            System.out.println();
+//            row++;
+//        }
+
+
+        //Question 7.c
+
+        /*
+                       1
+                    1  2  1
+                 1  2  3  2  1
+              1  2  3  4  3  2  1
+           1  2  3  4  5  4  3  2  1
+
+        */
+
+
+//        int n =5;
+//        int row =0;
+//        while(row < 5){
+//            int cols = 0;
+//            int colMirror = 0;
+//            while(colMirror < 2 * n -1){
+//                if(cols + row  < n - 1){
+//                    System.out.print("   ");
+//                }else{
+//                    System.out.print(cols+row-3+"  ");
+//                }
+//                if(colMirror < n -1){
+//                    cols++;
+//                }else{
+//                    cols--;
+//                }
+//                colMirror++;
+//            }
+//            System.out.println();
+//            row++;
+//
+//        }
+
+
+
+        //Question 7.d
+
+            /*
+                    1
+                 2  3  2
+              3  4  5  4  3
+           4  5  6  7  6  5  4
+        5  6  7  8  9  8  7  6  5
+
+            */
+
+
+//        int n =5;
+//        int row =0;
+//        while(row < 5){
+//            int cols = 0;
+//            int colMirror = 0;
+//            while(colMirror < 2 * n -1){
+//                if(cols + row  < n - 1){
+//                    System.out.print("   ");
+//                }else{
+//                    System.out.print(cols+2*row-3+"  ");
+//                }
+//                if(colMirror < n -1){
+//                    cols++;
+//                }else{
+//                    cols--;
+//                }
+//                colMirror++;
+//            }
+//            System.out.println();
+//            row++;
+//        }
+
+
+
+
+        //Question 7.e WASN"T ABLE TO PRINT THE NUMBER PATTERN
+
+        //QUESTION 7.f
+
+        /*
+                      *
+                   *  *  *
+                *  *  *  *  *
+            *  *  *  *  *  *  *
+         *  *  *  *  *  *  *  *  *
+            *  *  *  *  *  *  *
+               *  *  *  *  *
+                  *  *  *
+                     *
+
+
+         */
+
+
+//        int n =5;
+//        int row =0;
+//        int rowMirror = 0;
+//        while(rowMirror < 2*n-1){
+//            int cols = 0;
+//            int colMirror = 0;
+//            while(colMirror < 2 * n -1){
+//                if(cols + row  < n - 1){
+//                    System.out.print("   ");
+//                }else{
+//                    System.out.print("*  ");
+//                }
+//                if(colMirror < n -1){
+//                    cols++;
+//                }else{
+//                    cols--;
+//                }
+//                colMirror++;
+//            }
+//            System.out.println();
+//            if(rowMirror < n-1){
+//                row++;
+//            }else{
+//                row--;
+//            }
+//            rowMirror++;
+//
+//        }
+
+
+        //Question 7.g
+
+
+
+        /*
+
+         *                       *
+         *  *                 *  *
+         *  *  *           *  *  *
+         *  *  *  *     *  *  *  *
+         *  *  *           *  *  *
+         *  *                 *  *
+         *                       *
+
+
+         */
+
+
+//            int n = 5;
+//            int rowMirror = 0;
+//            int row = 0;
+//            while(rowMirror < 2*n-1){
+//                int cols = 0;
+//                int colsMirror = 0;
+//                while(colsMirror < 2 * n - 1 ){
+//                    if(cols < row){
+//                        System.out.print(" * ");
+//                    }else{
+//                        System.out.print("   ");
+//                    }
+//                    if(colsMirror < n -1){
+//                        cols++;
+//                    }else{
+//                        cols--;
+//                    }
+//                    colsMirror++;
+//                }
+//                System.out.println();
+//                if(rowMirror < n - 1){
+//                    row++;
+//                }else{
+//                    row--;
+//                }
+//                rowMirror++;
+//            }
+//
+
+
+        //Question 7.h
+
+        /*
+
+
+         * * * * * * * * *
+         * * * *   * * * *
+         * * *       * * *
+         * *           * *
+         *               *
+         * *           * *
+         * * *       * * *
+         * * * *   * * * *
+         * * * * * * * * *
+
+
+         */
+
+
+
+//        int n =5;
+//        int rowMirror = 0;
+//        int row = 0;
+//        while(rowMirror < 2 * n -1){
+//            int colMirror = 0;
+//            int cols = 0;
+//            while(colMirror < 2 * n - 1){
+//                if((row+cols) < n ){
+//                    System.out.print("* ");
+//                }else{
+//                    System.out.print("  ");
+//                }
+//                if(colMirror < n -1 ){
+//                    cols++;
+//                }else{
+//                    cols--;
+//                }
+//                colMirror++;
+//            }
+//            System.out.println();
+//            if(rowMirror  < n - 1){
+//                row++;
+//            }else{
+//                row--;
+//            }
+//            rowMirror++;
+//        }
+
+
+
+        //Question 7.i // NOT ABLE TO PRINT THE NUMBER VALUES
+
+//        int n = 5;
+//        int row  = 0;
+//        int rowMirror = 0;
+//        while(rowMirror < 2 * n -1){
+//            int cols = 0;
+//            int colMirror = 0;
+//            while(colMirror < 2 * n -1){
+//                if(row   < n - 4 ){
+//                    System.out.print(n-row+" ");
+//                }else{
+//                    System.out.print(n-cols+" ");
+//                }
+//                if(colMirror < n - 1){
+//                    cols++;
+//                }else{
+//                    cols--;
+//                }
+//                colMirror++;
+//            }
+//            System.out.println();
+//            if(rowMirror  < n -1){
+//                row++;
+//            }else{
+//                row--;
+//            }
+//            rowMirror++;
+//        }
 
 
 
 
 
-   }
+
+
+    }
 
 }
 
