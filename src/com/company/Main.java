@@ -1,5 +1,5 @@
 package com.company;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -493,12 +493,27 @@ public class Main {
 //            rowMirror++;
 //        }
 
+        //***Question***
+        int[] array = {0, 1, 1, 0, 0, 1};
+        int index = 0;
+        for(int i =0;i < array.length;i++){
+            if(array[i] == 0){
+                swap(array,i,index);
+                index++;
+            }
+
+        }
+        System.out.println(Arrays.toString(array));
 
 
 
 
-
-
+    }
+    public static void swap(int[] nums,int i, int j) {
+        int temp;
+        temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 
 }
